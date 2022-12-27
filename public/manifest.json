@@ -1,0 +1,20 @@
+{
+    // Comments are accepted in the manifest, even though it is JSON.
+    "manifest_version": 3,
+    "name": "Metamask Connect",
+    "description": "A minimal chrome extension that connects you to your Metamask wallet.",
+    "version": "1.0.1",
+    "icons": {
+        "16": "metamask16.png",
+        "48": "metamask48.png",
+        "128": "metamask128.png"
+    },
+    "action": {
+        "default_title": "Metamask Connect",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ]
+}
